@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+    <title>Form Styling</title>
+    <style>
+        .success{
+            color:white;
+            background:rgb(2, 146, 2);
+            padding:10px;
+            width:100%;
+            text-align:center;
+            border-radius: 10px;
+        }
+        .error{
+            color:white;
+            background:rgb(218, 37, 37);
+            padding:10px;
+            width:100%;
+            text-align:center;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div class="container">
+            <div class="main">
+            <h1>Sign Up</h1>
+            <p>It's free and only takes a minute</p>
+            </div>
+            <form class="form_layout">
+                <div class="box">
+                    <label for="fname">First Name</label>
+                    <input type="text" placeholder="enter first name" id="fname">
+                </div>
+                <div class="box">
+                    <label for="lname">Last Name</label>
+                    <input type="text" placeholder="enter last name" id="lname">
+                </div>
+                <div class="box">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="enter email" id="email">
+                </div>
+                <div class="box">
+                    <label for="password">Password</label>
+                    <input type="text" placeholder="enter passcode" id="pass">
+                </div>
+                <div class="box">   
+                    <label for="conf-pass">Confirm Password</label>
+                    <input type="text" placeholder="confirm passcode" id="confPass" >
+                </div>     
+                <input class="btn" value="submit" type="submit" >
+
+            </form>
+            <div class="bottom-text">
+                <p>By clicking the Sign Up button, you agree to our <a href="#">Terms & Condition</a> and <a href="#">Privacy Policy</a></p>
+            </div>
+        </div>
+        <footer>
+            Already have an account? <a href="#">Login Here</a>
+        </footer>
+    </div>
+<script src="app.js"></script>
+
+
+</body>
+</html>

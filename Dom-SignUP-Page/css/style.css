@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+body {
+    font-family:'Cairo', sans-serif;
+    background:#344a72;
+    
+}
+.center{
+    width:400px;
+    margin:auto;
+}
+
+.container{
+    background:rgb(255, 255, 255);
+    margin-top:40px;
+    border-radius:15px;
+    padding:10px;
+}
+
+.container .main{
+    text-align:center;
+    padding-bottom:10px;
+}
+
+/* form design */
+.form_layout{
+    padding:10px;
+}
+
+.form_layout label{
+    display: block;
+    font-size: 15px;
+    font-weight: 550;
+    padding-bottom:3px;
+}
+.form_layout input{
+    width:100%;
+    padding:10px;
+    border:1px #4d7e716b solid;
+    border-radius: 5px;
+    margin-bottom:10px;
+}
+
+.btn{
+    display: block;
+    width:100%;
+    border:none;
+    border-radius:5px;
+    background:#4ac1a2;
+    padding:10px;
+    margin:10px 0;
+    color:#ffffff;
+    font-size: medium;
+    letter-spacing: 1px;
+}
+
+.btn:hover{
+    background-color: #37a08e;
+}
+
+.bottom-text{
+    text-align: center;
+    margin:auto;
+    padding: 10px 20px;
+}
+
+.bottom-text a{
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.bottom-text a:hover{
+    color: #16188d;
+}
+
+footer{
+    color:white;
+    text-align: center;
+    
+}
+
+footer a{
+    color:#4ac1a2;
+
+}
+
+
+
+
+
+
+
